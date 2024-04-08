@@ -7,21 +7,20 @@
 </head>
 <body>
     
-    <fieldset>
-        <form>
-            <fieldset>
-                <legend> <strong>Nom</strong> </legend>
-            <div>
-                <input type="text" id="nom" placeholder="Exemple : Jean" size="27">
-                <label for="nom"></label>
-            </div>
-            </fieldset>
-            <br>
+    <form>
             <fieldset>
                 <legend> <strong>Prenom</strong> </legend>
             <div>
                 <input type="text" id="prenom" placeholder="Exemple : Dupont" size="27">
                 <label for="prenom"></label>
+            </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend> <strong>Nom</strong> </legend>
+            <div>
+                <input type="text" id="nom" placeholder="Exemple : Jean" size="27">
+                <label for="nom"></label>
             </div>
             </fieldset>
             <br>
@@ -36,14 +35,15 @@
             <br>
             <div>
             <fieldset>
-                <legend> <strong>Genre</strong> </legend>
+                <legend> <strong>Sexe</strong> </legend>
              <label for="genre1"> : </label> 
              <input id="genre1" type="radio" name="genre"> <label for="genre1"> Masculin  </label>
              <input id="genre2" type="radio" name="genre"> <label for="genre2"> Féminin  </label> 
              <input id="genre3" type="radio" name="genre"> <label for="genre3"> Autre  </label> 
+            </fieldset>
             </div>
             <br>
-                <div>
+            <div>
             <fieldset>
                 <legend> <strong> Email </strong> </legend>
                     <label for="email"> : </label>
@@ -98,8 +98,8 @@
             <fieldset>
                 <legend> <strong> Date de Naissance </strong> </legend>
             <div>
-                <label for="age"> </label>
-                <input id="age" type="date" size="30">
+                <label for="naissance"> </label>
+                <input id="naissance" type="date" size="30">
             </div>
             </fieldset>
             <br>
@@ -118,32 +118,32 @@
             <fieldset>
                 <legend> <strong> Numéro de sécurité social </strong> </legend>
             <div>
-                <label for="age"> </label>
-                <input id="age" type="text" size="30" placeholder="exemple : 1 00 08..." maxlength="15">
+                <label for="securite"> </label>
+                <input id="securite" type="text" size="29" placeholder="exemple : 1 00 08..." maxlength="15">
             </div>
             </fieldset>
             <br>
             <fieldset>
                 <legend> <strong> Numéro de passeport </strong> </legend>
             <div>
-                <label for="age"> </label>
-                <input id="age" type="text" size="30" placeholder="exemple : AB1234..." maxlength="9">
+                <label for="passeport"> </label>
+                <input id="passeport" type="text" size="30" placeholder="exemple : AB1234..." maxlength="9">
             </div>
             </fieldset>
             <br>
             <fieldset>
                 <legend> <strong> Date de délivrance </strong> </legend>
             <div>
-                <label for="age"> </label>
-                <input id="age" type="date">
+                <label for="delivrance"> </label>
+                <input id="delivrance" type="date">
             </div>
             </fieldset>
             <br>
             <fieldset>
                 <legend> <strong> Date de validité du passeport </strong> </legend>
             <div>
-                <label for="age"> </label>
-                <input id="age" type="date">
+                <label for="passeport1"> </label>
+                <input id="passeport1" type="date">
             </div>
             </fieldset>
             <br>
@@ -154,9 +154,8 @@
             <br>
                 <label for="button"> </label>
                 <input id="button" type="submit">
-               
-
-
+    </form>           
+        
 
 
 </body>
