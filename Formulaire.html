@@ -8,150 +8,208 @@
 <body>
     
     <form>
-            <fieldset>
+        <!--Section Prenom-->
+        <fieldset>
                 <legend> <strong>Prenom</strong> </legend>
             <div>
                 <input type="text" id="prenom" placeholder="Exemple : Dupont" size="27">
                 <label for="prenom"></label>
             </div>
-            </fieldset>
-            <br>
-            <fieldset>
-                <legend> <strong>Nom</strong> </legend>
+           
+        </fieldset>
+<br>
+        <fieldset>
+            <!--Section Nom-->
+            <legend> <strong>Nom</strong> </legend>
             <div>
                 <input type="text" id="nom" placeholder="Exemple : Jean" size="27">
                 <label for="nom"></label>
             </div>
-            </fieldset>
-            <br>
+    
+        </fieldset>
+<br>    
             <div>
-            <fieldset>
-                <legend> <strong> Âge </strong> </legend>
-            <label for="age"></label>
-            <input id="age" type="text" size="2" placeholder="23" maxlength="3">
-            <br>
-            </fieldset>
+        <fieldset>
+            <!--Section Âge-->
+            <legend> <strong> Âge </strong> </legend>
+                <label for="age"></label>
+                <input id="age" type="text" size="2" placeholder="23" maxlength="3">
+<br>
+        </fieldset>
+        
             </div>
-            <br>
+<br>
             <div>
+                
             <fieldset>
+                <!--Section Sexe client-->
                 <legend> <strong>Sexe</strong> </legend>
+
              <label for="genre1"> : </label> 
-             <input id="genre1" type="radio" name="genre"> <label for="genre1"> Masculin  </label>
-             <input id="genre2" type="radio" name="genre"> <label for="genre2"> Féminin  </label> 
-             <input id="genre3" type="radio" name="genre"> <label for="genre3"> Autre  </label> 
+                <input id="genre1" type="radio" name="genre"> <label for="genre1"> Masculin  </label>
+                <input id="genre2" type="radio" name="genre"> <label for="genre2"> Féminin  </label> 
+                <input id="genre3" type="radio" name="genre"> <label for="genre3"> Autre  </label>
+              
             </fieldset>
+            
             </div>
-            <br>
+<br>
             <div>
+            
             <fieldset>
+                <!--Section Email-->
                 <legend> <strong> Email </strong> </legend>
                     <label for="email"> : </label>
                     <input type="text" id="email" placeholder="Exemple : jeandupont@gmail.com" size="27">
-            </fieldset> 
-                </div>
-            <br>
+            
+                </fieldset> 
+            </div>
+<br>
                 <div>
-                <fieldset>    
+
+            <fieldset>
+                <!--Section Adresse Postale-->
                     <legend> <strong>Adresse Postale</strong> </legend>
-                    <label for="adresse">: </label>
-                    <input type="text" id="adresse" placeholder="Exemple : 1 rue Paul Verlaine" size="30">
+                        <label for="adresse">: </label>
+                        <input type="text" id="adresse" placeholder="Exemple : 1 rue Paul Verlaine" size="30">
+
                 </fieldset>
+                
                 </div>
-            <br>
+<br>
                 <div>
-                <fieldset>    
+
+                <fieldset>
+                    <!--Section Code Postale-->
                     <legend> <strong> Code Postale </strong> </legend>
-                    <label for="code"> : </label>
-                    <input type="text" id="code" placeholder="Exemple : 59300" size="30">
+                        <label for="code"> : </label>
+                        <input type="text" id="code" placeholder="Exemple : 59300" size="30">
+
                 </fieldset>
+
                 </div>
-            <br>
+<br>
                 <div>
-                <fieldset>    
+
+                <fieldset>
+                    <!--Section Ville-->
                     <legend> <strong> Ville </strong> </legend>
-                    <label for="ville"> : </label>
-                    <input type="text" id="ville" placeholder="Exemple : Valenciennes" size="30">
+                        <label for="ville"> : </label>
+                        <input type="text" id="ville" placeholder="Exemple : Valenciennes" size="30">
+                
                 </fieldset>
+
                 </div>
-            <br>
+<br>
                 <div>
-                <fieldset>    
+
+                <fieldset>
+                    <!--Section Métier Exercé-->
                     <legend> <strong>Metier Exercé</strong> </legend>
-                    <label for="metier"> : </label>
-                    <input type="text" id="metier" placeholder="Exemple : Charpentier" size="30">
+                        <label for="metier"> : </label>
+                        <input type="text" id="metier" placeholder="Exemple : Charpentier" size="30">
                 </fieldset>
+
                 </div>
-            <br>
+<br>
             <fieldset>
+                <!--Section Nationalité-->
                 <legend> <strong>Nationalité</strong> </legend>
-                <select name="pays">
-                    <option value="Francais"> Français</option>
-                    <option value="Anglais"> Anglais</option>
-                    <option value="Allemand"> Allemand</option>
-                    <option value="Italien"> Italien</option>
-                    <option value="Suédois"> Suédois</option>
-                    <option value="Autre"> Autre</option>
-                </select>
+                    <select name="pays">
+                        <option value="Francais"> Français</option>
+                        <option value="Anglais"> Anglais</option>
+                        <option value="Allemand"> Allemand</option>
+                        <option value="Italien"> Italien</option>
+                        <option value="Suédois"> Suédois</option>
+                        <option value="Autre"> Autre</option>
+                    </select>
+
             </fieldset>
-            <br>
+<br>
             <fieldset>
+                <!--Section Date de Naissance-->
                 <legend> <strong> Date de Naissance </strong> </legend>
+
             <div>
+
                 <label for="naissance"> </label>
                 <input id="naissance" type="date" size="30">
+
             </div>
+
             </fieldset>
-            <br>
+<br>
             <fieldset>
+                <!--Section Pays de Naissance-->
                 <legend> <strong>Pays de Naissance</strong> </legend>
-                <select name="pays">
-                    <option value="Francais"> Français</option>
-                    <option value="Anglais"> Anglais</option>
-                    <option value="Allemand"> Allemand</option>
-                    <option value="Italien"> Italien</option>
-                    <option value="Suédois"> Suédois</option>
-                    <option value="Autre"> Autre</option>
-                </select>
+                    <select name="pays">
+                        <option value="Francais"> Français</option>
+                        <option value="Anglais"> Anglais</option>
+                        <option value="Allemand"> Allemand</option>
+                        <option value="Italien"> Italien</option>
+                        <option value="Suédois"> Suédois</option>
+                        <option value="Autre"> Autre</option>
+                    </select>
             </fieldset>
-            <br>
+<br>
             <fieldset>
+                <!--Section Securité Social-->
                 <legend> <strong> Numéro de sécurité social </strong> </legend>
+
             <div>
+
                 <label for="securite"> </label>
                 <input id="securite" type="text" size="29" placeholder="exemple : 1 00 08..." maxlength="15">
+
             </div>
+
             </fieldset>
-            <br>
+<br>
             <fieldset>
+                <!--Section Numéro de passeport-->
                 <legend> <strong> Numéro de passeport </strong> </legend>
             <div>
+
                 <label for="passeport"> </label>
                 <input id="passeport" type="text" size="30" placeholder="exemple : AB1234..." maxlength="9">
+
             </div>
+
             </fieldset>
-            <br>
+<br>
             <fieldset>
+                <!--Section Date de délivrance-->
                 <legend> <strong> Date de délivrance </strong> </legend>
+
             <div>
+
                 <label for="delivrance"> </label>
                 <input id="delivrance" type="date">
+                
             </div>
+
             </fieldset>
-            <br>
+<br>
             <fieldset>
+                <!--Section Date de validité du passeport-->
                 <legend> <strong> Date de validité du passeport </strong> </legend>
+
             <div>
+
                 <label for="passeport1"> </label>
                 <input id="passeport1" type="date">
+
             </div>
+
             </fieldset>
-            <br>
+<br>
             <div>
+                <!--Bouton Reset-->
                 <label for="reset"> </label>
                 <input id="reset" type="reset">
+
             </div>
-            <br>
+<br>            <!--Bouton Envoyer-->
                 <label for="button"> </label>
                 <input id="button" type="submit">
     </form>           
